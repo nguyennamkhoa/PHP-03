@@ -1,0 +1,54 @@
+
+body{
+	background: #ffffcc;
+}
+/*dinh nghia font chu*/
+@font-face{
+	font-family: myNeolionFont;
+	src:url(Whitelist.otf);
+}
+.demo1{
+	padding-top: 20px;
+	font-size: 30px;
+	font-family: myNeolionFont;
+	color: red;
+	border: 1px solid black;
+	text-align: center;
+	border-radius: 50px;
+	height: 100px;
+	background: yellow;
+}
+.demo2{
+	padding-top: 20px;
+	font-size: 30px;
+	font-family: myNeolionFont;
+	color: yellow;
+	border: 1px solid black;
+	height: 100px;
+	background: #333;
+	 border-radius: 50px;
+	 text-align: center;
+}
+.demo3{
+	padding-top: 20px;
+	font-size: 30px;
+	font-family: myNeolionFont;
+	color: #777;
+	border: 1px solid black;
+	height: 100px;
+	background: red;
+	border-radius: 50px;
+	text-align:center;
+}
+.demo4{
+	/*gạch ngang chữ*/
+	text-transform: lowercase;
+	padding-top: 30px;
+	/*thụt vào đầu dòng*/
+	text-indent: 20px;
+	/*tạo khung viền*/
+	border: 1px solid black;
+	height: 100px;
+
+
+}
